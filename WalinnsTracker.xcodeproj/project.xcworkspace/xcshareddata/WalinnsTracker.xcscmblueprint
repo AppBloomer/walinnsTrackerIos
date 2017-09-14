@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5BEAF79E0683F8589D09E4EA6F08BBE54AB7835",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5BEAF79E0683F8589D09E4EA6F08BBE54AB7835" : 9223372036854775807,
+    "D40DEE79AC40388C333A7D5DA4D5A945D5653A5A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "191C0369-2B25-4554-B3CA-044B10983661",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5BEAF79E0683F8589D09E4EA6F08BBE54AB7835" : "WalinnsTracker\/",
+    "D40DEE79AC40388C333A7D5DA4D5A945D5653A5A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WalinnsTracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WalinnsTracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Rejoylin\/walinnsTrackerIos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5BEAF79E0683F8589D09E4EA6F08BBE54AB7835"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/Rejoyline\/WalinnsTracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D40DEE79AC40388C333A7D5DA4D5A945D5653A5A"
+    }
+  ]
+}
