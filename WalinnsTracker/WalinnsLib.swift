@@ -18,8 +18,8 @@ private var isDebug: Bool!
 public init() {
     self.isDebug = false
     print("Walinns library installed")
-    setup(isDebug: <#T##Bool#>)
-}
+    
+    }
 
 //3.
 public func setup(isDebug: Bool) {
