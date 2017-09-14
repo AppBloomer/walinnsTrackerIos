@@ -7,33 +7,28 @@
 //
 
 import Foundation
+import UIKit
 
 
 public class WalinnsLib
 {
-    
-private var isDebug: Bool!
-
-//2.
+ 
 public init() {
-    self.isDebug = false
-    print("Walinns library installed")
+       print("Walinns library installed")
+    }
     
-    }
-
-//3.
-public func setup(isDebug: Bool) {
-    self.isDebug = isDebug
-    print("Project is in Debug mode: \(isDebug)")
-}
-
-//4.
-public func Print<T>(value: T) {
-    if self.isDebug == true {
-        print(value)
-    } else {
-        //Do any stuff for production mode
-    }
+public func device_info(){
+     Constant.device_id = UIDevice.current.identifierForVendor!.uuidString
+     print(Constant.device_id)
+        
+   
 }
     
+    struct Constant {
+      static var device_id: String = ""
+    }
+ 
+    
+
+     
 }
