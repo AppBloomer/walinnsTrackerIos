@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		77943D9A1F68EEDA003ABFA6 /* WalinnsTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 77943D981F68EEDA003ABFA6 /* WalinnsTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77943DA11F68F162003ABFA6 /* WalinnsLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77943DA01F68F162003ABFA6 /* WalinnsLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77943D951F68EEDA003ABFA6 /* WalinnsTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WalinnsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77943D981F68EEDA003ABFA6 /* WalinnsTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalinnsTracker.h; sourceTree = "<group>"; };
 		77943D991F68EEDA003ABFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77943DA01F68F162003ABFA6 /* WalinnsLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalinnsLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				77943D981F68EEDA003ABFA6 /* WalinnsTracker.h */,
 				77943D991F68EEDA003ABFA6 /* Info.plist */,
+				77943DA01F68F162003ABFA6 /* WalinnsLib.swift */,
 			);
 			path = WalinnsTracker;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					77943D941F68EEDA003ABFA6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77943DA11F68F162003ABFA6 /* WalinnsLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +246,7 @@
 		77943D9E1F68EEDA003ABFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -252,6 +258,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.walinns.WalinnsTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +266,7 @@
 		77943D9F1F68EEDA003ABFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
