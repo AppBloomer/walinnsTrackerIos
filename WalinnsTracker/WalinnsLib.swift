@@ -12,7 +12,7 @@ import UIKit
 
 public class WalinnsLib
 {
- 
+
 public init() {
        print("Walinns library installed")
     }
@@ -28,7 +28,6 @@ public func device_info(){
       static var device_id: String = ""
     }
  
-    
-
-     
 }
+typealias InternalProperties = [String: Any]
+var superProperties = InternalProperties()

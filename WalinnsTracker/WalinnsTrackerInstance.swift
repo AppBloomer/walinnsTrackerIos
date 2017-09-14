@@ -12,7 +12,6 @@ import Foundation
 public protocol WalinnsTrackerDelegate{
     
 }
-typealias InternalProperties = [String: Any]
-var superProperties = InternalProperties()
+
 
 
