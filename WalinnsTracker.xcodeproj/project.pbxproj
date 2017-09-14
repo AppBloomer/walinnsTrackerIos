@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7788809C1F6A5D64005A4469 /* AutomaticProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788809B1F6A5D64005A4469 /* AutomaticProperties.swift */; };
-		7788809E1F6A6069005A4469 /* WalinnsTrackerInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788809D1F6A6069005A4469 /* WalinnsTrackerInstance.swift */; };
 		77943D9A1F68EEDA003ABFA6 /* WalinnsTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 77943D981F68EEDA003ABFA6 /* WalinnsTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77943DA11F68F162003ABFA6 /* WalinnsLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77943DA01F68F162003ABFA6 /* WalinnsLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7788809B1F6A5D64005A4469 /* AutomaticProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticProperties.swift; sourceTree = "<group>"; };
-		7788809D1F6A6069005A4469 /* WalinnsTrackerInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalinnsTrackerInstance.swift; sourceTree = "<group>"; };
 		77943D951F68EEDA003ABFA6 /* WalinnsTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WalinnsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77943D981F68EEDA003ABFA6 /* WalinnsTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalinnsTracker.h; sourceTree = "<group>"; };
 		77943D991F68EEDA003ABFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +51,6 @@
 				77943D981F68EEDA003ABFA6 /* WalinnsTracker.h */,
 				77943D991F68EEDA003ABFA6 /* Info.plist */,
 				77943DA01F68F162003ABFA6 /* WalinnsLib.swift */,
-				7788809B1F6A5D64005A4469 /* AutomaticProperties.swift */,
-				7788809D1F6A6069005A4469 /* WalinnsTrackerInstance.swift */,
 			);
 			path = WalinnsTracker;
 			sourceTree = "<group>";
@@ -141,9 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7788809C1F6A5D64005A4469 /* AutomaticProperties.swift in Sources */,
 				77943DA11F68F162003ABFA6 /* WalinnsLib.swift in Sources */,
-				7788809E1F6A6069005A4469 /* WalinnsTrackerInstance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
