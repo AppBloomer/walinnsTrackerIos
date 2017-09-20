@@ -18,11 +18,11 @@ public init() {
     }
     
     public static func device_info(name : String){
-        print(name)
+     print(name)
      Constant.device_id = UIDevice.current.identifierForVendor!.uuidString
      print(Constant.device_id)
      Constant.device_model=deviceModel()
-    print(Constant.device_model)
+     print(Constant.device_model)
         
    
 }
