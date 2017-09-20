@@ -8,45 +8,45 @@
 
 import Foundation
 import UIKit
+import CoreLocation
+
 
 
 public class WalinnsLib
 {
-
-public init() {
-       print("Walinns library installed")
-    }
+    var deviceID = UIDevice.current.identifierForVendor!.uuidString
     
-    public static func device_info(name : String){
-     print(name)
-     Constant.device_id = UIDevice.current.identifierForVendor!.uuidString
-     print(Constant.device_id)
-     Constant.device_model=deviceModel()
-     print(Constant.device_model)
+    //device_data:;init("model","fv","os_name","os_version","connectivty","carrier","email","play_service",
+    //"bluetooth","screen_dpi","screen_height","screen_width","age","gender","language")
+    
+    init(){
         
-   
-}
+        print("DEVICE_DATA",DeviceInfo.init(device_data: "device_model"))
+        
+    }
     
-public static func deviceModel()-> String {
-        var systemInfo = utsname()
-        uname(&systemInfo)
-        let size = MemoryLayout<CChar>.size
-        let modelCode = withUnsafePointer(to: &systemInfo.machine) {
-            $0.withMemoryRebound(to: CChar.self, capacity: size) {
-                String(cString: UnsafePointer<CChar>($0))
+    
+    
+    
+    struct DeviceInfo {
+        var device_model: String
+        init(device_data: String) {
+            var systemInfo = utsname()
+            uname(&systemInfo)
+            let size = MemoryLayout<CChar>.size
+            let modelCode = withUnsafePointer(to: &systemInfo.machine) {
+                $0.withMemoryRebound(to: CChar.self, capacity: size) {
+                    String(cString: UnsafePointer<CChar>($0))
+                }
             }
+            if let model = String(validatingUTF8: modelCode) {
+                
+                device_model=model
+            }
+            device_model=""
         }
-        if let model = String(validatingUTF8: modelCode) {
-            return model
-        }
-        return ""
+        
     }
-
     
-struct Constant {
-      static var device_id: String = ""
-      static var device_model=""
-    }
- 
-}
+ }
  
